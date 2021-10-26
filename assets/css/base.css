@@ -1,0 +1,121 @@
+:root{
+    --primary-color:#e34444;
+}
+*{
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.clear{
+    clear: both;
+}
+.grid {
+    width: 1172px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid-100-25{
+    width: 25%;
+    margin: 30px 25px;
+}
+.grid-100-50{
+    width: 50%;
+    margin:0 30px 30px ;
+}
+.grid-cow-full{
+    width: 100%;
+}
+.grid-100-30334{
+    width: 33.3334%;
+    margin: 30px 25px;
+}
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.column-1-2{
+    width: 50%;
+    padding:0 8px;
+}
+.column-1-4{
+    width: 25%;
+    padding: 0 10px;
+}
+.column-1-3{
+    width: 33.3334%;
+    padding: 8px;
+}
+.column-1-5{
+    width: 20%;
+    padding: 0 10px;
+}
+.btn{    
+    padding: 8px 20px;
+    color: #14b9d5;
+    background-color:#fff ;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    cursor: pointer;
+    min-width:92px ;
+    height: 30px;
+    position: relative;
+    display: inline-flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.border-element::before{
+    z-index: 6;
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 7px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity ease-in 0.3s ,visibility ease-in 0.3s;
+}
+.border-element-2::before{
+    z-index: 7;
+    content: "";
+    position: absolute;
+    top: 46%;
+    left: 16%;
+    border-width: 14px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity ease-in 0.3s ,visibility ease-in 0.3s;
+}
+.border-element-2::after{
+    z-index: 6;
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    border-width: 13px;
+    border-style: solid;
+    border-color: transparent transparent #eaeaea transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity ease-in 0.3s ,visibility ease-in 0.3s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
