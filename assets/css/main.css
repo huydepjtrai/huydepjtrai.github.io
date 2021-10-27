@@ -1334,7 +1334,7 @@
 .body__3-latest-posts-img{
     position: relative;
     cursor: pointer;
-    height: 250px;
+    height: 248px;
     overflow: hidden;
 }
 .body__3-latest-posts-img img{
@@ -1358,7 +1358,7 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 5px;
+    bottom: 0px;
 }
 
 
