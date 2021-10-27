@@ -365,7 +365,7 @@
     background-size: cover;
     border-right: 1px solid #eaeaea;
 }
-.header__navbar-furniture > .border-element-2::before{
+.header__navbar-furniture:hover > .border-element-2::before{
     visibility: visible;
     opacity: 1;
 }
@@ -819,7 +819,6 @@
     margin-left: -20px;
     position: relative;    
     z-index: 1;
-    background-color: #fff;
     padding-left: 18px;
 }
 .body__list_products-header::after{
@@ -1077,7 +1076,7 @@
     border: none;
     background-color: #333;
     color: #fff;
-    padding: 10px 32px;
+    padding: 10px 36px;
     font-size: 1.3rem;
     font-weight: 700; 
     transition: all ease-in 0.2s;  
@@ -1274,6 +1273,7 @@
     margin-right: 8px;
     border: 1px solid #eaeaea;
     cursor: pointer;
+    background-color: #fff;
 }
 .body__3-latest-posts-navbar i:hover{
     background-color: var(--primary-color);
@@ -1294,6 +1294,7 @@
     border: 1px solid #eaeaea;
     text-align: center;
     margin-right: 15px;
+    background-color: #fff;
 }
 .body__3-latest-posts-dates h2{
     margin: 10px 0 0 0;
@@ -1362,7 +1363,6 @@
 /* body__donors */
 .body__donors{
     display: flex;
-    justify-content: space-evenly;
     padding: 20px 0;
     margin-top: 45px;
     border-top: 1px solid #eaeaea;
@@ -1377,7 +1377,7 @@
     width: 100%;
 }
 .body__donors-list:hover {
-    background-color: #eaeaea;
+    background-color: #f5d4d4;
     cursor: pointer;
 }
 
