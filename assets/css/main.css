@@ -48,6 +48,7 @@
     padding: 0 30px;
     border-left: 1px solid #424141;
     cursor: pointer;
+    color: #c4bebe;
 }
 .header__login-account-li:hover span{
     color: var(--primary-color);
@@ -724,8 +725,7 @@
 }
 .slider__img2-100:hover .slider__img2-100-element::after{
     cursor: pointer;
-    transform: scale(1);
-    
+    transform: scale(1);   
 }
 .slider__img2-100-element::before{
     position: absolute;
@@ -1334,6 +1334,8 @@
 .body__3-latest-posts-img{
     position: relative;
     cursor: pointer;
+    height: 250px;
+    overflow: hidden;
 }
 .body__3-latest-posts-img img{
     width: 100%;
