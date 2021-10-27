@@ -189,7 +189,7 @@
     position: absolute;
     width: 87%;
     height: 3px;
-    background: url(http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/double-dotted.png);
+    background: url(../img/vien-header.png);
     margin-top: -55px;
 }
 .header__navbar-list::after{ 
@@ -197,7 +197,7 @@
     position: absolute;
     width: 87%;
     height: 3px;
-    background: url(http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/double-dotted.png);
+    background: url(../img/vien-header.png);
     margin-top: 55px;
 }
 
